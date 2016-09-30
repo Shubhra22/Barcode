@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarCodeGenerator", "BarCodeGenerator\BarCodeGenerator.csproj", "{1FEBBD5C-0CAB-4B9A-86EC-86C6E781FD85}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "BCode", "BCode\BCode.isproj", "{BD38B947-7AEE-4BDC-91C4-623DBC8439EB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1FEBBD5C-0CAB-4B9A-86EC-86C6E781FD85} = {1FEBBD5C-0CAB-4B9A-86EC-86C6E781FD85}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FEBBD5C-0CAB-4B9A-86EC-86C6E781FD85}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{1FEBBD5C-0CAB-4B9A-86EC-86C6E781FD85}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{1FEBBD5C-0CAB-4B9A-86EC-86C6E781FD85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FEBBD5C-0CAB-4B9A-86EC-86C6E781FD85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FEBBD5C-0CAB-4B9A-86EC-86C6E781FD85}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FEBBD5C-0CAB-4B9A-86EC-86C6E781FD85}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{1FEBBD5C-0CAB-4B9A-86EC-86C6E781FD85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FEBBD5C-0CAB-4B9A-86EC-86C6E781FD85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FEBBD5C-0CAB-4B9A-86EC-86C6E781FD85}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{1FEBBD5C-0CAB-4B9A-86EC-86C6E781FD85}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{BD38B947-7AEE-4BDC-91C4-623DBC8439EB}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{BD38B947-7AEE-4BDC-91C4-623DBC8439EB}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{BD38B947-7AEE-4BDC-91C4-623DBC8439EB}.Debug|Any CPU.ActiveCfg = DVD-5
+		{BD38B947-7AEE-4BDC-91C4-623DBC8439EB}.Debug|Any CPU.Build.0 = DVD-5
+		{BD38B947-7AEE-4BDC-91C4-623DBC8439EB}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{BD38B947-7AEE-4BDC-91C4-623DBC8439EB}.DVD-5|Any CPU.Build.0 = DVD-5
+		{BD38B947-7AEE-4BDC-91C4-623DBC8439EB}.Release|Any CPU.ActiveCfg = SingleImage
+		{BD38B947-7AEE-4BDC-91C4-623DBC8439EB}.Release|Any CPU.Build.0 = SingleImage
+		{BD38B947-7AEE-4BDC-91C4-623DBC8439EB}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{BD38B947-7AEE-4BDC-91C4-623DBC8439EB}.SingleImage|Any CPU.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
